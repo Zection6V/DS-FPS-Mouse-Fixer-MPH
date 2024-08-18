@@ -25,7 +25,8 @@ JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良
 - 射撃を低遅延化した。
 - **Cキー**で高速ズームできる。今のところCキー固定なので他のキーにすることはできない。
 
-  
+英語の説明の後に日本語の説明を記載しているので、スクロールしてご覧ください。
+
 # DS Mouse Input Fix V 1.4
 
 This tool aims to make DS FPS games more enjoyable by adding custom inputs that map to mouse inputs and keyboard macros, so that the player can simply focus on the game.
@@ -82,10 +83,10 @@ Within that file, there are 4 values that can be changed:
 Please note that the times MUST be written in milliseconds. For example, `1000` = 1 second of wait time.
 
 These are the defaults:
-- `mouseResetWait` = 35
-- `buttonWait` = 100
+- `mouseResetWait` = 33
+- `buttonWait` = 33
 - `swapWait` = 220
-- `keyWait` = 50
+- `keyWait` = 30
 
 **DO NOT** define more than one of these values on the same line.
 **DO NOT** include any other text on a line where these values are defined.
@@ -197,6 +198,12 @@ If you mess up these files too much and start getting crashes, just delete them,
 
 待機時間はミリ秒で指定する必要があります。例：`1000` = 1秒
 
+これらのデフォルト値は次のとおりです:
+- `mouseResetWait` = 33
+- `buttonWait` = 33
+- `swapWait` = 220
+- `keyWait` = 30
+- 
 これらの値を同じ行に複数定義しないでください。  
 これらの値が定義されている行には他のテキストを含めないでください。
 
@@ -218,7 +225,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 スクリプトがこれらのファイルを検出しない場合、生成します。その後、編集できます。
 
 入力キーは対応する16進数値で指定する必要があります：  
-https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+[Virtual-Key Codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 これらの入力を同じ行に複数定義しないでください。  
 これらの入力が定義されている行には他のテキストを含めないでください。
