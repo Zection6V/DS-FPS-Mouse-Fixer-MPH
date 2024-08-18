@@ -204,7 +204,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 - `buttonWait` = 33
 - `swapWait` = 220
 - `keyWait` = 30
-- 
+
 これらの値を同じ行に複数定義しないでください。  
 これらの値が定義されている行には他のテキストを含めないでください。
 
