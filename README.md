@@ -109,7 +109,7 @@ Each game that this script covers has unique inputs. Some of them are shared if 
 
 The script will generate these files if it does not detect them, then you can edit them.
 
-Note the input keys must be denoted by their corresponding hex values as denoted here:
+Note the input keys must be denoted by their corresponding hex values as denoted here:  
 [[Virtual-Key Codes]()](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 **DO NOT** define more than one of these inputs on the same line.
