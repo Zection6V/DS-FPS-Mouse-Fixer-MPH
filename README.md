@@ -122,21 +122,24 @@ If you mess up these files too much and start getting crashes, just delete them,
 ### Default Controls:
 
 #### MPH:
-- **Shoot/attack** = Left Mouse
-- **ADS/Zoom** = Right Mouse
-- **Manual Mouse Reset** = Middle Mouse
-- **Screen Tap Jump (MPH)** = Right Control
-- **Jump (MPH)** = Space Bar
-- **Ball (MPH)** = Left Control
-- **Scan Vision (MPH)** = V key
-- **Special Weapon (MPH) 1 - 6** = 1 - 6 keys
-- **Swap to Main Weapon (MPH)** = Q key
-- **Swap to Missiles (MPH)** = E key
-- **Swap to Third Weapon** = R key
-- **Select "Yes" in Menu** = Mouse Back Button
-- **Select "No" in Menu** = Mouse Forward Button
-- **Select Left Arrow in Menu** = Z key
-- **Select Right Arrow in Menu** = C key
+| Function                       | Key Setting                |
+|--------------------------------|----------------------------|
+| **Shoot/attack**               | Left Mouse                 |
+| **ADS/Zoom**                   | Right Mouse                |
+| **Manual Mouse Reset**         | Middle Mouse               |
+| **Screen Tap Jump (MPH)**      | Right Control              |
+| **Jump (MPH)**                 | Space Bar                  |
+| **Ball (MPH)**                 | Left Control               |
+| **Scan Vision (MPH)**          | V key                      |
+| **Special Weapon (MPH) 1 - 6** | 1 - 6 keys                 |
+| **Swap to Main Weapon (MPH)**  | Q key                      |
+| **Swap to Missiles (MPH)**     | E key                      |
+| **Swap to Third Weapon**       | R key                      |
+| **Select "Yes" in Menu**       | Mouse Back Button          |
+| **Select "No" in Menu**        | Mouse Forward Button       |
+| **Select Left Arrow in Menu**  | Z key                      |
+| **Select Right Arrow in Menu** | C key                      |
+
 
 
 # DS Mouse Input Fix V 1.4
@@ -232,18 +235,21 @@ If you mess up these files too much and start getting crashes, just delete them,
 ### デフォルトのコントロールリスト:
 
 #### MPH:
-- **射撃/攻撃** = 左クリック
-- **エイム/ズーム** = 右クリック
-- **手動マウスリセット** = 中クリック
-- **画面タップジャンプ (MPH)** = 右コントロール
-- **ジャンプ (MPH)** = スペースバー
-- **ボール (MPH)** = 左コントロール
-- **スキャンビジョン (MPH)** = Vキー
-- **特殊武器 (MPH) 1 - 6** = 1 - 6キー
-- **メイン武器に切り替え (MPH)** = Qキー
-- **ミサイルに切り替え (MPH)** = Eキー
-- **第三武器に切り替え** = Rキー
-- **メニューで「はい」を選択** = マウスバックボタン
-- **メニューで「いいえ」を選択** = マウスフォワードボタン
-- **メニューで左矢印を選択** = Zキー
-- **メニューで右矢印を選択** = Cキー
+| 機能                          | キー設定                   |
+|-------------------------------|----------------------------|
+| 射撃/攻撃                     | 左クリック                 |
+| エイム/ズーム                 | 右クリック                 |
+| 手動マウスリセット             | 中クリック                 |
+| 画面タップジャンプ (MPH)      | 右コントロール             |
+| ジャンプ (MPH)                | スペースバー               |
+| ボール (MPH)                  | 左コントロール             |
+| スキャンビジョン (MPH)         | Vキー                      |
+| 特殊武器 (MPH) 1 - 6          | 1 - 6キー                  |
+| メイン武器に切り替え (MPH)    | Qキー                      |
+| ミサイルに切り替え (MPH)      | Eキー                      |
+| 第三武器に切り替え            | Rキー                      |
+| メニューで「はい」を選択       | マウスバックボタン         |
+| メニューで「いいえ」を選択     | マウスフォワードボタン     |
+| メニューで左矢印を選択         | Zキー                      |
+| メニューで右矢印を選択         | Cキー                      |
+
