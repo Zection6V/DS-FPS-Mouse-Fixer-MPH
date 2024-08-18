@@ -121,16 +121,10 @@ If you mess up these files too much and start getting crashes, just delete them,
 
 ### Default Controls:
 
-#### Multiple Games:
+#### MPH:
 - **Shoot/attack** = Left Mouse
 - **ADS/Zoom** = Right Mouse
-- **Reload** = R key
-- **Interact** = E key
-- **Crouch** = Left Control
-- **Sprint** = Right Shift
 - **Manual Mouse Reset** = Middle Mouse
-
-#### MPH:
 - **Screen Tap Jump (MPH)** = Right Control
 - **Jump (MPH)** = Space Bar
 - **Ball (MPH)** = Left Control
@@ -237,16 +231,10 @@ If you mess up these files too much and start getting crashes, just delete them,
 
 ### デフォルトのコントロールリスト:
 
-#### 複数のゲーム:
+#### MPH:
 - **射撃/攻撃** = 左クリック
 - **エイム/ズーム** = 右クリック
-- **リロード** = Rキー
-- **インタラクト** = Eキー
-- **しゃがむ** = 左コントロール
-- **スプリント** = 右シフト
 - **手動マウスリセット** = 中クリック
-
-#### MPH:
 - **画面タップジャンプ (MPH)** = 右コントロール
 - **ジャンプ (MPH)** = スペースバー
 - **ボール (MPH)** = 左コントロール
