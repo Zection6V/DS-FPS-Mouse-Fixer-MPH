@@ -110,7 +110,7 @@ Each game that this script covers has unique inputs. Some of them are shared if 
 The script will generate these files if it does not detect them, then you can edit them.
 
 Note the input keys must be denoted by their corresponding hex values as denoted here:
-https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes 
+[[Virtual-Key Codes]()](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 **DO NOT** define more than one of these inputs on the same line.
 **DO NOT** include any other text on a line where these inputs are defined.
@@ -220,7 +220,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 スクリプトがこれらのファイルを検出しない場合、生成します。その後、編集できます。
 
 入力キーは対応する16進数値で指定する必要があります：  
-[Virtual-Key Codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+[[Virtual-Key Codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)](https://learn.microsoft.com/ja-jp/windows/win32/inputdev/virtual-key-codes)
 
 これらの入力を同じ行に複数定義しないでください。  
 これらの入力が定義されている行には他のテキストを含めないでください。
