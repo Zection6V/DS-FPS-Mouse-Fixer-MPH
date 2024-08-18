@@ -1,6 +1,9 @@
 # DS-FPS-Mouse-Fixer-MPH
 MPH Optimized version of https://github.com/JDoe212/DS-FPS-Mouse-Fixer
 
+I made some improvements based on the excellent "DS FPS Mouse Fix" developed by JDoe212. It was only possible to achieve further optimization thanks to the outstanding "DS FPS Mouse Fix" that JDoe212 created. I am sincerely grateful.  
+JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良を行いました。このツールがあったからこそ、さらなる最適化が可能になりました。心から感謝いたします。  
+
 Changes from DS FPS Mouse Fix
 
 Supported only Metroid Prime Hunters.  
@@ -20,3 +23,4 @@ DS FPS Mouse Fixからの変更点
 　DS_MPH_Controls.txtのShoot設定は無視される。  
 ・射撃を低遅延化した。  
 ・Cキーで高速ズームできる。今のところCキー固定なので他のキーにすることはできない。  
+  
