@@ -128,23 +128,6 @@ If you mess up these files too much and start getting crashes, just delete them,
 - **Sprint** = Right Shift
 - **Manual Mouse Reset** = Middle Mouse
 
-#### COD:
-- **Swap weapon (COD)** = 1 key
-- **Swap to grenade (COD)** = 2 key
-- **Swap Grenade Type (COD)** = Q key
-- **Swap To Melee (COD)** = F key
-
-#### DEM:
-- **Next Weapon (DEM)** = Mouse Side Button M5
-- **Items (DEM)** = G key
-- **Resume (DEM)** = 2 key
-- **Map (DEM)** = M key
-- **Jump (DEM2)** = Space Bar
-- **Flashlight (DEM2)** = F key
-- **Equipment (DEM2)** = 1 key
-- **Notepad (DEM1)** = Q key
-- **Hotbar 1 - Hotbar 8 (DEM1)** = 1 key through 8 key
-
 #### MPH:
 - **Screen Tap Jump (MPH)** = Right Control
 - **Jump (MPH)** = Space Bar
@@ -254,23 +237,6 @@ https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 - **しゃがむ** = 左コントロール
 - **スプリント** = 右シフト
 - **手動マウスリセット** = 中クリック
-
-#### COD:
-- **武器切り替え (COD)** = 1キー
-- **グレネード切り替え (COD)** = 2キー
-- **グレネードタイプ切り替え (COD)** = Qキー
-- **近接攻撃 (COD)** = Fキー
-
-#### DEM:
-- **次の武器 (DEM)** = サイドボタンM5
-- **アイテム (DEM)** = Gキー
-- **再開 (DEM)** = 2キー
-- **マップ (DEM)** = Mキー
-- **ジャンプ (DEM2)** = スペースバー
-- **懐中電灯 (DEM2)** = Fキー
-- **装備 (DEM2)** = 1キー
-- **ノートパッド (DEM1)** = Qキー
-- **ホットバー1 - ホットバー8 (DEM1)** = 1キーから8キー
 
 #### MPH:
 - **画面タップジャンプ (MPH)** = 右コントロール
