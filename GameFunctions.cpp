@@ -97,14 +97,20 @@ int InitializePoints(POINT* bottomLeft, POINT* topRight)
 // 攻撃に使用するボタンを押す関数
 void Shoot_Button_Down()
 {
-    //keybd_event('N', 0, KEYEVENTF_KEYUP, 0);
-    //keybd_event('N', 0, 0, 0);
+    // keybd_event('N', 0, KEYEVENTF_KEYUP, 0);
+    // keybd_event('N', 0, 0, 0);
 }
 
 // 攻撃に使用するボタンを離す関数
 void Shoot_Button_Up()
 {
-    //keybd_event('N', 0, KEYEVENTF_KEYUP, 0);
+    // keybd_event('N', 0, KEYEVENTF_KEYUP, 0);
+}
+
+// 攻撃に使用するボタンを離す関数
+void Shoot_Button_Up2()
+{
+    keybd_event('N', 0, KEYEVENTF_KEYUP, 0);
 }
 
 // スクリプトを一時停止する関数（再開可能）
@@ -112,7 +118,7 @@ void Pause()
 {
     mouse_event(mouseUp, 0, 0, 0, 0);
     SwapMouseButton(paused);
-    Shoot_Button_Up();
+    Shoot_Button_Up2();
     paused = !paused;
     if (paused)
     {
@@ -131,7 +137,7 @@ void Kill()
     on = 0;
     paused = 1;
     mouse_event(mouseUp, 0, 0, 0, 0);
-    Shoot_Button_Up();
+    Shoot_Button_Up2();
     SwapMouseButton(0);
     ClipCursor(nullptr);
 }
@@ -171,7 +177,7 @@ void RunInput(struct Input *input)
         else if (!isKeyDown && input->isDown && input->gameFunction == Shoot_Button_Down)
         {
             // シュートボタンが離された場合の処理
-            Shoot_Button_Up();
+            Shoot_Button_Up2();
         }
     }
 
@@ -180,7 +186,7 @@ void RunInput(struct Input *input)
 }
 
 // 入力構造体のリストを取得して全てをチェックする関数
-void InputCheck(struct Input* inputs, int length)
+__forceinline void InputCheck(struct Input* inputs, int length)
 {
     // printf("%d\n", inputs[0].inpNum);
     for (int i = 0; i < length; i++)

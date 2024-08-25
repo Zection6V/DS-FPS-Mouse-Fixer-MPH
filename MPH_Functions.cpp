@@ -12,16 +12,16 @@ extern float distanceFromBoarderSides, distanceFromBoarderTop, distanceNextButto
 
 
 // メイン関数やその他の場所から呼び出す
-void Zoom_MPH_impl()
+__forceinline void Zoom_MPH_impl()
 {
-    keybd_event('M', 0, KEYEVENTF_KEYUP, 0);
+    // keybd_event('M', 0, KEYEVENTF_KEYUP, 0);
     keybd_event('M', 0, 0, 0);
     Sleep(keyWait);
     keybd_event('M', 0, KEYEVENTF_KEYUP, 0);
 }
 
 // ズーム機能を使用する関数
-void Zoom_MPH()
+__forceinline void Zoom_MPH()
 {
     std::thread zoom_thread(Zoom_MPH_impl);
     zoom_thread.detach(); // スレッドをデタッチして、バックグラウンドで実行
