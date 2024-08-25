@@ -7,7 +7,7 @@ extern int mouseResetWait, buttonWait, swapWait, keyWait;
 extern int totalInputs;
 extern int gameSelected;
 
-void ADS_COD4()
+void ScreenTapJump()
 {
     // カーソルを上げる
     CursorUp();
@@ -59,7 +59,7 @@ void GenerateInputs_MPH(FILE *inputFile, struct Input* inputList)
         {"Special Weapon 6", WeaponSix_MPH},
         {"Scan Vision", ScanVision_MPH},
         {"Ball", Ball_MPH},
-        {"Screen Tap Jump", ADS_COD4},
+        {"Screen Tap Jump", ScreenTapJump},
         {"Ok (menu)", ClickOK_MPH},
         {"Yes (menu)", ClickYes_MPH},
         {"No (menu)", ClickNo_MPH},

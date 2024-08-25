@@ -14,6 +14,7 @@ extern float distanceFromBoarderSides, distanceFromBoarderTop, distanceNextButto
 // メイン関数やその他の場所から呼び出す
 void Zoom_MPH_impl()
 {
+    keybd_event('M', 0, KEYEVENTF_KEYUP, 0);
     keybd_event('M', 0, 0, 0);
     Sleep(keyWait);
     keybd_event('M', 0, KEYEVENTF_KEYUP, 0);

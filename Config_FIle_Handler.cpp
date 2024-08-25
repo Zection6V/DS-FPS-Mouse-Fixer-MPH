@@ -22,7 +22,6 @@ void removeSubstring(char *string, const char *substring)
 }
 
 // コンフィグファイルの作成・読み取り、およびその使用方法の指示
-
 void ConfigReader() {
     const std::string filename = "DS_Config.txt";
     std::ifstream inFile(filename);
@@ -55,7 +54,8 @@ void ConfigReader() {
 
             auto it = configMap.find(key);
             if (it != configMap.end()) {
-                *(it->second) = std::stoi(value);
+                // 値を整数に変換し、絶対値にする
+                *(it->second) = std::abs(std::stoi(value));
             } else if (key == "autoMouseDrag") {
                 autoMouseDrag = std::stoi(value);
             }

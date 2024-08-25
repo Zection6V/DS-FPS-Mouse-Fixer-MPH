@@ -33,7 +33,7 @@ __forceinline void CursorUp()
     GetActiveMouseUp(&mouseResetWait);
 }
 
-__forceinline void ResetPos()
+void ResetPos()
 {
     mouse_event(mouseUp, 0, 0, 0, 0);
     GetActiveMouseUp(&mouseResetWait);
@@ -53,7 +53,7 @@ __forceinline void ResetPos()
     }
 }
 
-__forceinline int ResetPosAfterButton()
+int ResetPosAfterButton()
 {
     GetActiveMouseDown(&buttonWait);
     mouse_event(mouseUp, 0, 0, 0, 0);

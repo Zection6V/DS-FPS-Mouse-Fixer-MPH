@@ -16,7 +16,7 @@ struct Input;
 
 // キーシミュレーション関数
 __forceinline void SimulateKeyPress(UINT vKey) {
-    // keybd_event(vKey, 0, KEYEVENTF_KEYUP, 0);
+    keybd_event(vKey, 0, KEYEVENTF_KEYUP, 0);
     keybd_event(vKey, 0, 0, 0);
 }
 
@@ -55,7 +55,7 @@ __forceinline void ProcessMouseInput(RAWINPUT* raw) {
 }
 
 // RAW入力処理関数
-__forceinline  void ProcessRawInput(LPARAM lParam) {
+  void ProcessRawInput(LPARAM lParam) {
     if (paused) return;  // pausedの時は何もしない
 
     UINT dwSize = sizeof(RAWINPUT);
