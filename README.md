@@ -122,24 +122,24 @@ If you mess up these files too much and start getting crashes, just delete them,
 ### Default Controls:
 
 #### MPH:
-| Function                       | Key Setting                |
-|--------------------------------|----------------------------|
-| **Shoot/attack**               | Left Mouse (Fixed) or N (Fixed)  |
-| **ADS/Zoom**                   | Right Mouse or M (Fixed)        |
-| **ADS/Zoom (Fast)**            | C Key (Fixed)              |
-| **Manual Mouse Reset**         | Middle Mouse               |
-| **Screen Tap Jump (MPH)**      | Right Control              |
-| **Jump (MPH)**                 | Space Bar                  |
-| **Ball (MPH)**                 | Left Control               |
-| **Scan Vision (MPH)**          | V Key                      |
-| **Special Weapon (MPH) 1 - 6** | 1 - 6 Keys                 |
-| **Swap to Main Weapon (MPH)**  | Q Key                      |
-| **Swap to Missiles (MPH)**     | E Key                      |
-| **Swap to Third Weapon**       | R Key                      |
-| **Select "Yes" in Menu**       | Mouse Back Button          |
-| **Select "No" in Menu**        | Mouse Forward Button       |
-| **Select Left Arrow in Menu**  | Z Key                      |
-| **Select Right Arrow in Menu** | X Key                      |
+| Function                       | Key Setting                    |
+|--------------------------------|--------------------------------|
+| **Shoot/attack**               | Left Mouse (Fixed) or N (Fixed)|
+| **ADS/Zoom**                   | Right Mouse or M (Fixed)       |
+| **ADS/Zoom (Fast)**            | C Key (Fixed)                  |
+| **Manual Mouse Reset**         | Middle Mouse                   |
+| **Screen Tap Jump (MPH)**      | Right Control                  |
+| **Jump (MPH)**                 | Space Bar                      |
+| **Ball (MPH)**                 | Left Control                   |
+| **Scan Vision (MPH)**          | V Key                          |
+| **Special Weapon (MPH) 1 - 6** | 1 - 6 Keys                     |
+| **Swap to Main Weapon (MPH)**  | Q Key                          |
+| **Swap to Missiles (MPH)**     | E Key                          |
+| **Swap to Third Weapon**       | R Key                          |
+| **Select "Yes" in Menu**       | Mouse Back Button              |
+| **Select "No" in Menu**        | Mouse Forward Button           |
+| **Select Left Arrow in Menu**  | Z Key                          |
+| **Select Right Arrow in Menu** | X Key                          |
 
 
 
@@ -237,12 +237,12 @@ If you mess up these files too much and start getting crashes, just delete them,
 ### デフォルトのコントロールリスト:
 
 #### MPH:
-| **機能**                           | **キー設定**                  |
+| **機能**                          | **キー設定**                  |
 | --------------------------------- | ----------------------------- |
 | **射撃/攻撃**                     | 左クリック(固定) or N(固定)   |
 | **エイム/ズーム**                 | 右クリック or M(固定)         |
 | **エイム/ズーム(高速)**           | Cキー(固定)                   |
-| **手動マウスリセット**             | 中クリック                    |
+| **手動マウスリセット**            | 中クリック                    |
 | **画面タップジャンプ (MPH)**      | 右コントロール                |
 | **ジャンプ (MPH)**                | スペースバー                  |
 | **ボール (MPH)**                  | 左コントロール                |
