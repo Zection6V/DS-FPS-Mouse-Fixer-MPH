@@ -126,7 +126,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 |--------------------------------|----------------------------|
 | **Shoot/attack**               | Left Mouse (Fixed) or N (Fixed)  |
 | **ADS/Zoom**                   | Right Mouse or M (Fixed)        |
-| **Fast ADS/Zoom**              | C Key (Fixed)              |
+| **ADS/Zoom (Fast)**            | C Key (Fixed)              |
 | **Manual Mouse Reset**         | Middle Mouse               |
 | **Screen Tap Jump (MPH)**      | Right Control              |
 | **Jump (MPH)**                 | Space Bar                  |
