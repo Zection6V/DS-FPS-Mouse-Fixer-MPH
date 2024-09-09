@@ -6,6 +6,7 @@
 #include <winuser.h>
 #include <windows.h>
 #include <atomic>
+#include <thread>
 
 // アトミック変数の定義
 std::atomic<bool> running(true);
@@ -54,7 +55,7 @@ __forceinline void ProcessMouseInput(RAWINPUT* raw) {
     }
 }
 
-// RAW入力処理関数
+// RAW入力処理関数 ここは絶対__forceinlineつけないほうがいい
   void ProcessRawInput(LPARAM lParam) {
     if (paused) return;  // pausedの時は何もしない
 
@@ -70,6 +71,9 @@ __forceinline void ProcessMouseInput(RAWINPUT* raw) {
         }
     }
 }
+
+
+
 
 // メイン実行関数
 int Run() {
@@ -92,10 +96,16 @@ int Run() {
     SwapMouseButton(TRUE);
 
     while (on) {
+
         MSG msg;
         while (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE)) {
             if (msg.message == WM_INPUT) {
-                ProcessRawInput(msg.lParam);
+                std::thread ProcessRawInput_thread([lParam = msg.lParam]() {
+                    ProcessRawInput(lParam); // 関数を実行
+                });
+
+                // スレッドをデタッチしてバックグラウンドで実行
+                ProcessRawInput_thread.detach();
             }
             TranslateMessage(&msg);
             DispatchMessage(&msg);
@@ -104,14 +114,18 @@ int Run() {
         InputCheck(stateCheckers, 2);
 
         if (!paused) {
+
+            // AutoDrag{
             POINT cursorPos;
             GetCursorPos(&cursorPos);
             if (autoMouseDrag) {
                 if (cursorPos.x >= rightBound || cursorPos.x <= leftBound ||
                     cursorPos.y >= bottomBound || cursorPos.y <= topBound) {
                     ResetPos();
-                }
+                    }
             }
+            // }AutoDrag
+
             InputCheck(inputList, totalInputs);
         }
         // Sleep(10);

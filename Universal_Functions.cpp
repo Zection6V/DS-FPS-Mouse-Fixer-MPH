@@ -4,6 +4,8 @@
 
 #include <windows.h>
 
+#include <thread>
+
 extern int mouseUp, mouseDown, activeMouse;
 extern int mouseResetWait, buttonWait, swapWait, keyWait;
 extern int autoMouseDrag;
@@ -33,7 +35,19 @@ __forceinline void CursorUp()
     GetActiveMouseUp(&mouseResetWait);
 }
 
-void ResetPos()
+
+__forceinline void lockPlaySpaceAfterResetPos() {
+
+
+    RECT tempRect;
+    GetClipCursor(&tempRect);
+    if (tempRect.left != playSpace.left || tempRect.right != playSpace.right ||
+        tempRect.top != playSpace.top || tempRect.bottom != playSpace.bottom)
+    {
+        LockPlaySpace();
+    }
+}
+__forceinline void ResetPos()
 {
     mouse_event(mouseUp, 0, 0, 0, 0);
     GetActiveMouseUp(&mouseResetWait);
@@ -44,16 +58,11 @@ void ResetPos()
         mouse_event(mouseDown, 0, 0, 0, 0);
     }
 
-    RECT tempRect;
-    GetClipCursor(&tempRect);
-    if (tempRect.left != playSpace.left || tempRect.right != playSpace.right ||
-        tempRect.top != playSpace.top || tempRect.bottom != playSpace.bottom)
-    {
-        LockPlaySpace();
-    }
+    std::thread lockPlaySpaceAfterResetPos_thread(lockPlaySpaceAfterResetPos);
+    lockPlaySpaceAfterResetPos_thread.detach(); // スレッドをデタッチして、バックグラウンドで実行
 }
 
-int ResetPosAfterButton()
+__forceinline int ResetPosAfterButton()
 {
     GetActiveMouseDown(&buttonWait);
     mouse_event(mouseUp, 0, 0, 0, 0);

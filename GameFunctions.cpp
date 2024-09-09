@@ -5,6 +5,7 @@
 #include "InputStruct.cpp"
 #include "Universal_Functions.cpp"
 #include "MPH_Functions.cpp"
+#include <thread>
 
 // 外部変数の宣言（他のファイルで定義されている）
 extern int on, paused;
@@ -146,8 +147,9 @@ void Kill()
 void DoNothing()
 {
     }
+
 // 入力構造体を取得してポーリングする関数
-void RunInput(struct Input *input)
+__forceinline void RunInput(struct Input *input)
 {
     // キーの状態を1回だけ取得し、結果を保存
     SHORT keyState = GetAsyncKeyState(input->inpNum);
@@ -161,7 +163,7 @@ void RunInput(struct Input *input)
             {
                 mouse_event(mouseDown, 0, 0, 0, 0);
             }
-            // TODO いらんかも
+
             input->gameFunction();  // ゲーム機能を実行
 
             //ResetPos();  // 位置をリセット
