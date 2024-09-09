@@ -28,7 +28,7 @@ JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良
 
 以下の英語の説明の後に日本語の説明を記載しているので、スクロールしてご覧ください。
 
-# DS Mouse Input Fix V 1.4
+# DS Mouse Input Fix V 1.4 MOD
 
 This tool aims to make DS FPS games more enjoyable by adding custom inputs that map to mouse inputs and keyboard macros, so that the player can simply focus on the game.
 
@@ -144,7 +144,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 
 
 
-# DS Mouse Input Fix V 1.4
+# DS Mouse Input Fix V 1.4 MOD
 
 このツールは、DSのFPSゲームをより楽しむために、マウス入力とキーボードマクロに対応したカスタム入力を追加し、プレイヤーがゲームに集中できるようにします。
 
