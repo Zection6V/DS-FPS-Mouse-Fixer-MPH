@@ -9,8 +9,8 @@ JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良
 
 - Supported only **Metroid Prime Hunters**.
 - Speeded up right-click zoom.
-- Fixed shooting to left click.
-  - If you use a PAD, set left click to the button used for shooting.
+- Fixed shooting to left-click and N key.
+  - If you use a PAD, set left-click or N key to the button used for shooting.
   - The Shoot setting in `DS_MPH_Controls.txt` is ignored.
 - Low latency shooting.
 - Fast zoom with the **C key**. It is currently fixed to the C key, so it cannot be used for other keys.
@@ -19,8 +19,8 @@ JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良
 
 - 対応ソフトを**メトロイドプライムハンターズ**のみにした。
 - 右クリックズームを高速化した。
-- 射撃を左クリックに固定。
-  - PADで使う場合は射撃で使うボタンに左クリックを設定すること。
+- 射撃を左クリックとNキーに固定。
+  - PADで使う場合は射撃で使うボタンに左クリックかNキーを設定すること。
   - `DS_MPH_Controls.txt`のShoot設定は無視される。
 - 射撃を低遅延化した。
 - **Cキー**で高速ズームできる。今のところCキー固定なので他のキーにすることはできない。
