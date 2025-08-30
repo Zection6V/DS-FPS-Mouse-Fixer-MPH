@@ -16,10 +16,14 @@ cmake --build build -j
 
 ## 4. クリーンビルド（既存の成果物を削除して再構築したいとき）
 cd /your/path/to/project/Source
+
 rm -rf build
+
 cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release
+
 cmake --build build -j
 
 ## 5. 実行・デバッグ
 cd /your/path/to/project/Source/build/bin
+
 ./DS_FPS_Mouse_Fixer.exe
