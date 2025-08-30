@@ -32,7 +32,7 @@ JDoe212が開発した素晴らしい「DS FPS Mouse Fix」をベースに改良
 
 This tool aims to make DS FPS games more enjoyable by adding custom inputs that map to mouse inputs and keyboard macros, so that the player can simply focus on the game.
 
-**IMPORTANT:** IF THE SCRIPT CRASHES AND YOUR MOUSE 1 AND MOUSE 2 INPUTS ARE STILL REVERSED, RUN "Repair tool for fixing swapped left and right mouse clicks.exe" THIS SHOULD FIX THE ISSUE.
+**IMPORTANT:** If the script crashes and the left and right mouse buttons become swapped, simply restarting the application will automatically return them to normal.
 
 ## HOW TO USE
 
@@ -148,7 +148,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 
 このツールは、DSのFPSゲームをより楽しむために、マウス入力とキーボードマクロに対応したカスタム入力を追加し、プレイヤーがゲームに集中できるようにします。
 
-**重要：** スクリプトがクラッシュしてマウス1とマウス2の入力が逆になっている場合は、「Repair tool for fixing swapped left and right mouse clicks.exe」を実行してください。これで問題が解決するはずです。
+**重要：** スクリプトがクラッシュして左クリックと右クリックが入れ替わったままになる場合は、本アプリケーションを再び起動するだけで自動的に元に戻ります。
 
 ## 使い方
 
@@ -255,6 +255,7 @@ If you mess up these files too much and start getting crashes, just delete them,
 | **メニューで「いいえ」を選択**    | マウスフォワードボタン        |
 | **メニューで左矢印を選択**        | Zキー                         |
 | **メニューで右矢印を選択**        | Xキー                         |
+
 
 
 
