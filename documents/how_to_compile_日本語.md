@@ -1,5 +1,7 @@
 # 🔧 コンパイル・実行手順まとめ (MinGW64)
 
+以下のコマンドはすべて **MinGW64 のターミナルウィンドウ**（`C:\msys64\mingw64.exe`）で実行してください。
+
 ## 1. 作業ディレクトリへ移動
 cd /your/path/to/project/Source
 
