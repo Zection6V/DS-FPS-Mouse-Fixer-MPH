@@ -1,5 +1,7 @@
 # 🔧 Build & Run Instructions (MinGW64)
 
+All commands below should be executed **inside the MinGW64 terminal window** (`C:\msys64\mingw64.exe`).
+
 ## 1. Move to the project directory
 cd /your/path/to/project/Source
 
