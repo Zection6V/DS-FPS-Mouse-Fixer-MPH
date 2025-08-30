@@ -1,0 +1,7 @@
+VALUES
+
+mouseResetWait = 33
+buttonWait = 33
+swapWait = 220
+keyWait = 30
+autoMouseDrag = 1

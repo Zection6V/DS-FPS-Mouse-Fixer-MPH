@@ -1,0 +1,24 @@
+Edit Controls for Metroid Prime Hunters in this file.
+Inputs must be denoted by their corresponding hex values as denoted here: 
+https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes 
+
+Shoot = 0x01
+Mouse Manual Reset = 0x04
+Swap To Main Weapon = 0x06
+Swap To Missiles = 0x05
+Swap To Third Weapon = 0x52
+Special Weapon 1 = 0x31
+Special Weapon 2 = 0x32
+Special Weapon 3 = 0x33
+Special Weapon 4 = 0x34
+Special Weapon 5 = 0x35
+Special Weapon 6 = 0x36
+Scan Vision = 0x56
+Ball = 0xA2
+Screen Tap Jump = 0xA3
+Zoom = 0x02
+Ok (menu) = 0x46
+Yes (menu) = 0x05
+No (menu) = 0x06
+Left (menu) = 0x5A
+Right (menu) = 0x58
