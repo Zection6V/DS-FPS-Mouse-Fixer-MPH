@@ -15,10 +15,14 @@ cmake --build build -j
 
 ## 4. Clean build (remove existing outputs and rebuild from scratch)
 cd /your/path/to/project/Source
+
 rm -rf build
+
 cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release
+
 cmake --build build -j
 
 ## 5. Run & Debug
 cd /your/path/to/project/Source/build/bin
+
 ./DS_FPS_Mouse_Fixer.exe
