@@ -856,6 +856,14 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow) {
     const wchar_t CLASS_NAME[] = L"Sample Window Class";
 
+    // ★安全策: 起動時点で必ずSwap解除（前回クラッシュ等で左右反転が残っていても復旧）
+    SwapMouseButton(FALSE);
+
+    // ★通常終了時の再解除も保険で設定
+    std::atexit([](){
+        SwapMouseButton(FALSE);
+    });
+
     WNDCLASSW wc{};
     wc.hbrBackground = reinterpret_cast<HBRUSH>(COLOR_WINDOW + 1);
     wc.lpfnWndProc   = WindowProc;
