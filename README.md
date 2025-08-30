@@ -133,8 +133,8 @@ If you mess up these files too much and start getting crashes, just delete them,
 | **Ball (MPH)**                 | Left Control                   |
 | **Scan Vision (MPH)**          | V Key                          |
 | **Special Weapon (MPH) 1 - 6** | 1 - 6 Keys                     |
-| **Swap to Main Weapon (MPH)**  | Q Key                          |
-| **Swap to Missiles (MPH)**     | E Key                          |
+| **Swap to Main Weapon (MPH)**  | Mouse 5 (Side Top)             |
+| **Swap to Missiles (MPH)**     | 	Mouse 4 (Side Bottom)         |
 | **Swap to Third Weapon**       | R Key                          |
 | **Select "Yes" in Menu**       | Mouse Back Button              |
 | **Select "No" in Menu**        | Mouse Forward Button           |
@@ -248,12 +248,13 @@ If you mess up these files too much and start getting crashes, just delete them,
 | **ボール (MPH)**                  | 左コントロール                |
 | **スキャンビジョン (MPH)**        | Vキー                         |
 | **特殊武器 (MPH) 1 - 6**          | 1 - 6キー                     |
-| **メイン武器に切り替え (MPH)**    | Qキー                         |
-| **ミサイルに切り替え (MPH)**      | Eキー                         |
+| **メイン武器に切り替え (MPH)**    | マウス5（サイド上）             |
+| **ミサイルに切り替え (MPH)**      | マウス4（サイド下）             |
 | **第三武器に切り替え**            | Rキー                         |
 | **メニューで「はい」を選択**      | マウスバックボタン            |
 | **メニューで「いいえ」を選択**    | マウスフォワードボタン        |
 | **メニューで左矢印を選択**        | Zキー                         |
 | **メニューで右矢印を選択**        | Xキー                         |
+
 
 
