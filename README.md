@@ -257,6 +257,6 @@ If you mess up these files too much and start getting crashes, just delete them,
 | **メニューで右矢印を選択**        | Xキー                         |
 
 
-
-
+## 🗨️ Join our MPH Community Discord
+https://discord.gg/x4jV4ddvv9
 
