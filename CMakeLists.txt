@@ -9,9 +9,22 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# 実行ファイル生成（Single TU：main.cpp のみを明示）
+# 実行ファイル生成
 add_executable(DS_FPS_Mouse_Fixer
     ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/AppState.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/ConfigManager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/GameLoop.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/InputMapping.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/InputUtils.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/MacroActions.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/RawInputHandler.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Ui.cpp
+)
+
+target_include_directories(DS_FPS_Mouse_Fixer
+    PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 # 共通のコンパイル定義
